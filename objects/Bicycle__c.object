@@ -222,6 +222,18 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Bicycles</pluralLabel>
+    <recordTypes>
+        <fullName>City_Bikes</fullName>
+        <active>true</active>
+        <label>City Bikes</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Road</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
