@@ -161,6 +161,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Shelter__c</controllingField>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
@@ -178,6 +179,51 @@
                     <fullName>Coonhound</fullName>
                     <default>false</default>
                     <label>Coonhound</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
+                <controllingFieldValue>OTAT</controllingFieldValue>
+                <controllingFieldValue>Anti-Cruelty Society</controllingFieldValue>
+                <valueName>Husky</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
+                <controllingFieldValue>OTAT</controllingFieldValue>
+                <valueName>Lab</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
+                <controllingFieldValue>Anti-Cruelty Society</controllingFieldValue>
+                <valueName>Coonhound</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Shelter__c</fullName>
+        <externalId>false</externalId>
+        <label>Shelter</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PAWS Chicago</fullName>
+                    <default>false</default>
+                    <label>PAWS Chicago</label>
+                </value>
+                <value>
+                    <fullName>OTAT</fullName>
+                    <default>false</default>
+                    <label>OTAT</label>
+                </value>
+                <value>
+                    <fullName>Anti-Cruelty Society</fullName>
+                    <default>false</default>
+                    <label>Anti-Cruelty Society</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
