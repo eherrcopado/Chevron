@@ -22,6 +22,10 @@
         <object>Bicycle__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Bicycle__c.Noncity_bikes</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userPermissions>
         <enabled>true</enabled>
         <name>ChangeDashboardColors</name>

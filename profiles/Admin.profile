@@ -12810,6 +12810,10 @@
         <recordType>Bicycle__c.City_Bikes</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Bicycle__c-Country bikes</layout>
+        <recordType>Bicycle__c.Noncity_bikes</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15206,6 +15210,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Bicycle__c.City_Bikes</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Bicycle__c.Noncity_bikes</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
