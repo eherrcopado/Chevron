@@ -268,6 +268,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Grade__c</controllingField>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
@@ -292,6 +293,27 @@
                     <label>Denver West High school</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Pre-K</controllingFieldValue>
+                <controllingFieldValue>Kindergarten</controllingFieldValue>
+                <valueName>Park Hill Elementary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>First</controllingFieldValue>
+                <controllingFieldValue>Second</controllingFieldValue>
+                <controllingFieldValue>Third</controllingFieldValue>
+                <valueName>McAuliffe International Middle School</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fourth</controllingFieldValue>
+                <controllingFieldValue>Fifth</controllingFieldValue>
+                <valueName>Denver East High School</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fourth</controllingFieldValue>
+                <controllingFieldValue>Fifth</controllingFieldValue>
+                <valueName>Denver West High school</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <label>Student</label>
