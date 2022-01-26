@@ -202,6 +202,69 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>School_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>School Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Elementary</fullName>
+                    <default>false</default>
+                    <label>Elementary</label>
+                </value>
+                <value>
+                    <fullName>Middle</fullName>
+                    <default>false</default>
+                    <label>Middle</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>School Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Park Hill Elementary</fullName>
+                    <default>false</default>
+                    <label>Park Hill Elementary</label>
+                </value>
+                <value>
+                    <fullName>McAuliffe International Middle School</fullName>
+                    <default>false</default>
+                    <label>McAuliffe International Middle School</label>
+                </value>
+                <value>
+                    <fullName>Denver East High School</fullName>
+                    <default>false</default>
+                    <label>Denver East High School</label>
+                </value>
+                <value>
+                    <fullName>Denver West High school</fullName>
+                    <default>false</default>
+                    <label>Denver West High school</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>Student</label>
     <nameField>
         <label>Student Name</label>
