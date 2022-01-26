@@ -180,6 +180,11 @@
                     <default>false</default>
                     <label>Coonhound</label>
                 </value>
+                <value>
+                    <fullName>Border Collie</fullName>
+                    <default>false</default>
+                    <label>Border Collie</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>PAWS Chicago</controllingFieldValue>
@@ -196,6 +201,10 @@
                 <controllingFieldValue>PAWS Chicago</controllingFieldValue>
                 <controllingFieldValue>Anti-Cruelty Society</controllingFieldValue>
                 <valueName>Coonhound</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
+                <valueName>Border Collie</valueName>
             </valueSettings>
         </valueSet>
     </fields>
