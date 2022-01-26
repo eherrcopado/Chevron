@@ -322,6 +322,16 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
+    <recordTypes>
+        <fullName>East_Coast</fullName>
+        <active>true</active>
+        <label>East Coast</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>West_Coast</fullName>
+        <active>true</active>
+        <label>West Coast</label>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
