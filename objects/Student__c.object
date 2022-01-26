@@ -161,6 +161,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>School_Level__c</controllingField>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
@@ -200,6 +201,119 @@
                     <label>Fifth</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Elementary</controllingFieldValue>
+                <valueName>Pre-K</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Elementary</controllingFieldValue>
+                <valueName>Kindergarten</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Middle</controllingFieldValue>
+                <valueName>First</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Middle</controllingFieldValue>
+                <valueName>Second</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Middle</controllingFieldValue>
+                <valueName>Third</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>High</controllingFieldValue>
+                <valueName>Fourth</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>High</controllingFieldValue>
+                <valueName>Fifth</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>School Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Elementary</fullName>
+                    <default>false</default>
+                    <label>Elementary</label>
+                </value>
+                <value>
+                    <fullName>Middle</fullName>
+                    <default>false</default>
+                    <label>Middle</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>School Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Grade__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Park Hill Elementary</fullName>
+                    <default>false</default>
+                    <label>Park Hill Elementary</label>
+                </value>
+                <value>
+                    <fullName>McAuliffe International Middle School</fullName>
+                    <default>false</default>
+                    <label>McAuliffe International Middle School</label>
+                </value>
+                <value>
+                    <fullName>Denver East High School</fullName>
+                    <default>false</default>
+                    <label>Denver East High School</label>
+                </value>
+                <value>
+                    <fullName>Denver West High school</fullName>
+                    <default>false</default>
+                    <label>Denver West High school</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Pre-K</controllingFieldValue>
+                <controllingFieldValue>Kindergarten</controllingFieldValue>
+                <valueName>Park Hill Elementary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>First</controllingFieldValue>
+                <controllingFieldValue>Second</controllingFieldValue>
+                <controllingFieldValue>Third</controllingFieldValue>
+                <valueName>McAuliffe International Middle School</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fourth</controllingFieldValue>
+                <controllingFieldValue>Fifth</controllingFieldValue>
+                <valueName>Denver East High School</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fourth</controllingFieldValue>
+                <controllingFieldValue>Fifth</controllingFieldValue>
+                <valueName>Denver West High school</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <label>Student</label>
@@ -208,6 +322,16 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
+    <recordTypes>
+        <fullName>East_Coast</fullName>
+        <active>true</active>
+        <label>East Coast</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>West_Coast</fullName>
+        <active>true</active>
+        <label>West Coast</label>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
