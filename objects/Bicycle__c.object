@@ -234,6 +234,26 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <recordTypes>
+        <fullName>Noncity_bikes</fullName>
+        <active>true</active>
+        <label>Noncity bikes</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Gravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Road</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
