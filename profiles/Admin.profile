@@ -6162,6 +6162,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Dog__c.Cost_to_adopt__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>EngagementChannelType.ContactPointType</field>
         <readable>false</readable>

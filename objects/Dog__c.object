@@ -182,6 +182,16 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Cost_to_adopt__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost to adopt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
     <label>Dog</label>
     <nameField>
         <label>Dog Name</label>
