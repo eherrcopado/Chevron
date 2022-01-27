@@ -326,6 +326,29 @@
         <fullName>East_Coast</fullName>
         <active>true</active>
         <label>East Coast</label>
+        <picklistValues>
+            <picklist>Grade__c</picklist>
+            <values>
+                <fullName>Fifth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fourth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>West_Coast</fullName>
