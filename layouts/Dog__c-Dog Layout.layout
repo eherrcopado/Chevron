@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Shelter__c</field>
+                <field>Cost_to_adopt__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
