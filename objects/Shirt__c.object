@@ -154,85 +154,9 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Age__c</fullName>
+        <fullName>Sleeve_length__c</fullName>
         <externalId>false</externalId>
-        <label>Age</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Breed__c</fullName>
-        <externalId>false</externalId>
-        <label>Breed</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>Shelter__c</controllingField>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Husky</fullName>
-                    <default>false</default>
-                    <label>Husky</label>
-                </value>
-                <value>
-                    <fullName>Lab</fullName>
-                    <default>false</default>
-                    <label>Lab</label>
-                </value>
-                <value>
-                    <fullName>Coonhound</fullName>
-                    <default>false</default>
-                    <label>Coonhound</label>
-                </value>
-                <value>
-                    <fullName>Border Collie</fullName>
-                    <default>false</default>
-                    <label>Border Collie</label>
-                </value>
-            </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
-                <controllingFieldValue>OTAT</controllingFieldValue>
-                <controllingFieldValue>Anti-Cruelty Society</controllingFieldValue>
-                <valueName>Husky</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
-                <controllingFieldValue>OTAT</controllingFieldValue>
-                <valueName>Lab</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
-                <controllingFieldValue>Anti-Cruelty Society</controllingFieldValue>
-                <valueName>Coonhound</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PAWS Chicago</controllingFieldValue>
-                <valueName>Border Collie</valueName>
-            </valueSettings>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Cost_to_adopt__c</fullName>
-        <externalId>false</externalId>
-        <label>Cost to adopt</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Shelter__c</fullName>
-        <externalId>false</externalId>
-        <label>Shelter</label>
+        <label>Sleeve length</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -241,29 +165,34 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>PAWS Chicago</fullName>
+                    <fullName>Tank</fullName>
                     <default>false</default>
-                    <label>PAWS Chicago</label>
+                    <label>Tank</label>
                 </value>
                 <value>
-                    <fullName>OTAT</fullName>
+                    <fullName>Short sleeve</fullName>
                     <default>false</default>
-                    <label>OTAT</label>
+                    <label>Short sleeve</label>
                 </value>
                 <value>
-                    <fullName>Anti-Cruelty Society</fullName>
+                    <fullName>Baseball tee</fullName>
                     <default>false</default>
-                    <label>Anti-Cruelty Society</label>
+                    <label>Baseball tee</label>
+                </value>
+                <value>
+                    <fullName>Long sleeve</fullName>
+                    <default>false</default>
+                    <label>Long sleeve</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Dog</label>
+    <label>Shirt</label>
     <nameField>
-        <label>Dog Name</label>
+        <label>Shirt Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Dogs</pluralLabel>
+    <pluralLabel>Shirts</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
